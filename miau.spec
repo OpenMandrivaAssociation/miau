@@ -1,6 +1,6 @@
 Summary:	In short, miau is an IRC-bouncer/proxy
 Name:		miau
-Version:	0.6.3
+Version:	0.6.4
 Release:	%mkrel 1
 License:	GPL
 Group:		Networking/IRC
@@ -61,5 +61,3 @@ rm -f %{buildroot}%{_datadir}/miaurc
 %attr(755,root,root) %{_bindir}/*
 %{_infodir}/*.info*
 %{_mandir}/man1/miau.1*
-
-
