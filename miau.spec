@@ -9,7 +9,6 @@ URL:		http://miau.sourceforge.net/
 Requires(post): info-install
 Requires(preun): info-install
 BuildRequires:	mandriva-release
-BuildRoot:	%{_tmppath}/%{name}-%{version}-root
 
 %description
 Miau is a smart and versatile irc-bouncing tool for unix. The difference between
