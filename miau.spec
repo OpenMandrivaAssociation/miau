@@ -1,14 +1,13 @@
 Summary:	In short, miau is an IRC-bouncer/proxy
 Name:		miau
-Version:	0.6.4
+Version:	0.6.5
 Release:	%mkrel 1
-License:	GPL
+License:	GPLv2+
 Group:		Networking/IRC
 Source0:	http://downloads.sourceforge.net/miau/%{name}-%{version}.tar.bz2
 URL:		http://miau.sourceforge.net/
 Requires(post): info-install
 Requires(preun): info-install
-BuildRequires:	mandriva-release
 BuildRoot:	%{_tmppath}/%{name}-%{version}-root
 
 %description
@@ -41,7 +40,7 @@ dcc-bouncing, etc.
 %install
 [ "%{buildroot}" != "/" ] && rm -rf %{buildroot}
 
-%makeinstall
+%makeinstall_std
 
 rm -f %{buildroot}%{_datadir}/miaurc
 
