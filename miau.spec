@@ -11,13 +11,13 @@ Requires(preun): info-install
 BuildRoot:	%{_tmppath}/%{name}-%{version}-root
 
 %description
-Miau is a smart and versatile irc-bouncing tool for unix. The difference between
-miau and other bouncers is that miau will go on irc as soon as it's launched,
-guarding or attempting to get your nick. Control over the session can be taken
-as with other bouncers, by simply connecting to miau (and providing a password)
-like you would connect to a normal irc-server. On disconnect, miau is able to
-stay in the channels and to reintroduce them to your client on your next
-connect. Other handy features are message-logging, flood-protection,
+Miau is a smart and versatile irc-bouncing tool for unix. The difference
+between miau and other bouncers is that miau will go on irc as soon as it's
+launched, guarding or attempting to get your nick. Control over the session can
+be taken as with other bouncers, by simply connecting to miau (and providing a
+password) like you would connect to a normal irc-server. On disconnect, miau is
+able to stay in the channels and to reintroduce them to your client on your
+next connect. Other handy features are message-logging, flood-protection,
 dcc-bouncing, etc.
 
 %prep
