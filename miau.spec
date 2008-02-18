@@ -1,4 +1,4 @@
-Summary:	In short, miau is an IRC-bouncer/proxy
+Summary:	IRC-bouncer/proxy
 Name:		miau
 Version:	0.6.5
 Release:	%mkrel 1
