@@ -1,7 +1,7 @@
 Summary:	IRC-bouncer/proxy
 Name:		miau
 Version:	0.6.5
-Release:	%mkrel 5
+Release:	%mkrel 6
 License:	GPLv2+
 Group:		Networking/IRC
 Source0:	http://downloads.sourceforge.net/miau/%{name}-%{version}.tar.bz2
