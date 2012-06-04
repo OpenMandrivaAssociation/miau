@@ -1,14 +1,11 @@
 Summary:	IRC-bouncer/proxy
 Name:		miau
 Version:	0.6.6
-Release:	%mkrel 1
+Release:	2
 License:	GPLv2+
 Group:		Networking/IRC
 Source0:	http://downloads.sourceforge.net/miau/%{name}-%{version}.tar.bz2
 URL:		http://miau.sourceforge.net/
-Requires(post): info-install
-Requires(preun): info-install
-BuildRoot:	%{_tmppath}/%{name}-%{version}-root
 
 %description
 Miau is a smart and versatile irc-bouncing tool for unix. The difference
@@ -38,21 +35,9 @@ dcc-bouncing, etc.
 %make
 
 %install
-[ "%{buildroot}" != "/" ] && rm -rf %{buildroot}
-
+rm -rf %{buildroot}
 %makeinstall_std
-
 rm -f %{buildroot}%{_datadir}/miaurc
-
-%clean
-[ "%{buildroot}" != "/" ] && rm -rf %{buildroot}
-
-
-%post
-%_install_info %{name}.info
-
-%preun
-%_remove_install_info %{name}.info
 
 %files
 %defattr(644,root,root,755)
