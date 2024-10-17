@@ -5,7 +5,7 @@ Release:	3
 License:	GPLv2+
 Group:		Networking/IRC
 Source0:	http://downloads.sourceforge.net/miau/%{name}-%{version}.tar.bz2
-URL:		http://miau.sourceforge.net/
+URL:		https://miau.sourceforge.net/
 
 %description
 Miau is a smart and versatile irc-bouncing tool for unix. The difference
