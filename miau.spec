@@ -7,6 +7,11 @@ Group:		Networking/IRC
 Source0:	http://downloads.sourceforge.net/miau/%{name}-%{version}.tar.bz2
 URL:		https://miau.sourceforge.net/
 
+BuildRequires:	autoconf
+BuildRequires:	automake
+BuildRequires:	libtool-base
+BuildRequires:	slibtool
+BuildRequires:	make
 %description
 Miau is a smart and versatile irc-bouncing tool for unix. The difference
 between miau and other bouncers is that miau will go on irc as soon as it's
